@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts",
+    "dev": "nuxt-ts --port 8080",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
@@ -13,13 +13,16 @@
     "analyze": "nuxt build --analyze"
   },
   "dependencies": {
+    "@ditdot-dev/vue-flow-form": "^1.1.4",
     "@nuxt/content": "^1.9.0",
     "@nuxt/typescript-runtime": "^2.0.0",
-    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/axios": "^5.12.5",
     "buefy": "^0.9.4",
     "bulma": "^0.9.1",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "lodash": "^4.17.20",
+    "nuxt": "^2.14.6",
+    "nuxt-stripe-module": "^3.0.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.6",

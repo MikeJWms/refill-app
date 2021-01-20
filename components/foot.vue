@@ -2,7 +2,7 @@
   <footer class="footer" id="foot">
     <div class="content has-text-centered">
       <p>
-        <strong>Suds.direct</strong> has been made with love in Portland Oregon, USA. All rights reserved | ©{{currentYear}}
+        <strong>Suds.direct</strong> is made with love in Portland Oregon, USA. All rights reserved | ©{{currentYear}}
       </p>
     </div>
   </footer>

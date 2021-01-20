@@ -8,9 +8,6 @@
         </template>
         <template slot="start">
             <b-navbar-item href="#">
-                Our Mission
-            </b-navbar-item>
-            <b-navbar-item href="#">
                 Product
             </b-navbar-item>
             <b-navbar-item href="#">

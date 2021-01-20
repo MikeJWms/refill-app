@@ -1,8 +1,6 @@
 <template>
   <div id="index">
-    <hero />
-    <mission />
-    <product />
+    <Hero />
   </div>
 </template>
 

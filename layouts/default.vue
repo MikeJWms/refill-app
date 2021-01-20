@@ -2,7 +2,7 @@
   <div>
     <navbar />
 
-    <nuxt style="min-height: 100vh" />
+    <nuxt />
 
     <foot />
   </div>
@@ -28,4 +28,8 @@ export default {
 
 <style lang="scss">
   @import '~assets/styles/main.scss';
+
+  h1{
+    font-size: 2.5rem;
+  }
 </style>
